@@ -17,9 +17,9 @@ public class MyThread extends Thread{
 			while(!queue.isEmpty()){
 				Integer temp = queue.poll();
 				System.out.println(temp);
-				Thread.sleep(1000);
+				
 			}
-		} catch (InterruptedException e) {
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
